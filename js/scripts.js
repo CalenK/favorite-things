@@ -3,13 +3,11 @@ onload = function() {
   form.addEventListener("submit", function(event) {
     event.preventDefault();
     const favoriteThings = Array.from(document.querySelectorAll("input"), input => input.value)
-    console.log(favoriteThings);
     favoriteThings[1, 0, 2];
     const secondFavoriteThing = favoriteThings[1];
     const firstFavoriteThing = favoriteThings[0];
     const thirdFavoriteThing = favoriteThings[2];
     const topMostFavoritedThings = [secondFavoriteThing, firstFavoriteThing, thirdFavoriteThing];
-    console.log(topMostFavoritedThings)
     const liElement1 = document.createElement("li");
     const liElement2 = document.createElement("li");
     const liElement3 = document.createElement("li");
